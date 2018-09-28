@@ -6,3 +6,10 @@
     group: ja
     mode: 0664 
 
+- name: deploy ansible.cfg
+  copy:
+    src: files/ansible.cfg
+    dest: /home/ja/ansible.cfg
+    owner: ja
+    group: ja
+
