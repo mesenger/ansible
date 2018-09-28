@@ -1,0 +1,8 @@
+- name: deploy .vimrc
+  copy:
+    src: files/vimrc
+    dest: /home/ja/.vimrc
+    owner: ja
+    group: ja
+    mode: 0664 
+
