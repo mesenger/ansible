@@ -13,3 +13,10 @@
     owner: ja
     group: ja
 
+- name: deploy .gitconfig file
+  copy:
+    src: files/gitconfig
+    dest: /home/ja/ansible.cfg
+    owner: ja
+    group: ja
+
