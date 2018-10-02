@@ -86,3 +86,7 @@ filetype plugin indent on
 " Map F5 for putting word in parentheses
 map <F5> i"<Esc>ea"<Esc>
 
+set backupdir=.backup/,~/.backup/,/tmp//
+set directory=.swp/,~/.swp/,/tmp//
+set undodir=.undo/,~/.undo/,/tmp//
+
