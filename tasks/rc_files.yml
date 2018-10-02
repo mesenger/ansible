@@ -2,21 +2,21 @@
   copy:
     src: files/vimrc
     dest: "{{ home }}.vimrc"
-    owner: ja
-    group: ja
+    owner: vagrant
+    group: vagrant
     mode: 0664 
 
 - name: deploy ansible.cfg
   copy:
     src: files/ansible.cfg
     dest: "{{ home }}ansible.cfg"
-    owner: ja
-    group: ja
+    owner: vagrant
+    group: vagrant
 
 - name: deploy .gitconfig file
   copy:
     src: files/gitconfig
     dest: "{{ home }}.gitconfig"
-    owner: ja
-    group: ja
+    owner: vagrant
+    group: vagrant
 
